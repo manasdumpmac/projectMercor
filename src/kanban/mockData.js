@@ -43,7 +43,7 @@ export const mockData = [
                 description: 'Deep dive into Cascading Style Sheets and CSS frameworks.',
                 comments: 0,
                 attachments: 3,
-                people: ['Emily', 'David', 'Sophia']
+                people: ['Emily', 'David']
             },
             {
                 id: '3ff2d547-df84-4d80-b8b3-763d161a9eb3',
@@ -62,7 +62,7 @@ export const mockData = [
         tasks: [
             {
                 id: '9b55718d-6836-4fd6-8b56-5c0202855e48',
-                priority: 'High',
+                priority: 'Completed',
                 title: 'Learn HTML',
                 description: 'Master the essentials of HTML for web development.',
                 comments: 5,
