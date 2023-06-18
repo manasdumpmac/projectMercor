@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import NavBar from './navBarHeader2/navBarHeader2';
 import LeftDrawer from './leftDrawer/leftDrawer';
 import Kanban from './kanban';
+import BodyHeader from './bodyHeader/bodyHeader';
 
 const drawerWidth = 240;
 
@@ -57,6 +58,7 @@ export default function App() {
       <LeftDrawer drawerWidth={drawerWidth} open={open} handleDrawerClose={handleDrawerClose}/>
       <Main open={open}>
         <DrawerHeader />
+        <BodyHeader/>
         <Kanban/>
       </Main>
     </Box>
