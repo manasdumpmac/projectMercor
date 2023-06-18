@@ -4,10 +4,10 @@
   }
   
   .kanban__section {
-    width: 400px;
+    width: 33%;
     background-color: #F5F5F5;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 18px;
     color: #000
   }
   
